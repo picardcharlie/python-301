@@ -29,4 +29,4 @@ focus = CarType("Focus", 2002, 120)
 print(civic)
 print(focus)
 
-print(civic.faster_faster())
+civic.faster_faster()
