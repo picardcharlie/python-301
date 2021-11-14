@@ -51,6 +51,7 @@ class Pokemon:
             self.hp = self.max_hp
         print(f"{self.name} eats and is healed for {(self.max_hp // 4)} HP.  They have {self.hp}/{self.max_hp} HP now.")
 
-#    def __repr__(self):
+    def __repr__(self):
+        return f"Pokemon(name={self.name}, primary_type={self.primary_type}, max_hp={self.max_hp}, hp={self.hp}, number={self.number})"
 
 
